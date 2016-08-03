@@ -13,7 +13,8 @@ from path import Path
 import theano
 import theano.tensor as T
 import lasagne
-
+# import sys
+# sys.path.insert(0, 'C:\Users\Andy\Generative-and-Discriminative-Voxel-Modeling')
 from utils import checkpoints, npytar, metrics_logging
 
 from collections import OrderedDict
