@@ -13,15 +13,19 @@ To run the VAE and GUI, you will need:
 - [path.py](https://github.com/jaraco/path.py)
 - [VTK](http://www.vtk.org/) and its python bindings
 
-If you want to plot latent space mappings, you will need [matplotlib](http://matplotlib.org/)
+If you want to plot latent space mappings, you will need [matplotlib](http://matplotlib.org/).
 
 Download the repository and add the main folder to your PYTHONPATH, or uncomment and modify the sys.path.insert lines in whatever script you want to run.
 
 ## Preparing the data
-I've included several .tar versions of Modelnet10, along with a MATLAB script to convert raw Modelnet .off files into MATLAB arrays, then a python script to convert the MATLAB arrays into either .npz files or hdf5 files (for use with [https://github.com/mila-udem/fuel]). If you wish to write more .tar files (say, of Modelnet40) for use with the VAE and GUI, see [voxnet](https://github.com/dimatura/voxnet).
+I've included several .tar versions of Modelnet10, which can be used to train the VAE and run the GUI. If you wish to write more .tar files (say, of Modelnet40) for use with the VAE and GUI, download  [the dataset](http://modelnet.cs.princeton.edu/) and then see [voxnet](https://github.com/dimatura/voxnet).
+
+For the Discriminative model, I've included a MATLAB script in utils to convert raw Modelnet .off files into MATLAB arrays, then a python script to convert the MATLAB arrays into either .npz files or hdf5 files (for use with [https://github.com/mila-udem/fuel]). 
+
+The _nr.tar files contain the unaugmented Modelnet10 train and test sets, while the other tar files have 12 copies of each model, rotated evenly about the vertical axis. 
 
 ## Running the GUI
-I've included a pre-trained model (VAE.npz) trained on modelnet10, which can be used to run the GUI:
+I've included a pre-trained model (VAE.npz) trained on Modelnet10, which can be used to run the GUI:
 
 ```sh
 python Generative/GUI.py Generative/VAE.py datasets/shapenet10_test_nr.tar Generative/VAE.npz
