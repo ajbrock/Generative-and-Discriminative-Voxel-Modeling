@@ -31,6 +31,16 @@ I've included a pre-trained model (VAE.npz) trained on Modelnet10, which can be 
 python Generative/GUI.py Generative/VAE.py datasets/shapenet10_test_nr.tar Generative/VAE.npz
 ```
 
+## Training
+If you wish to train a model, the VAE.py file contains the model configuration, and the train_VAE.py file contains the training code, which can be run like this:
+
+```sh
+python Generative/train_VAE.py Generative/VAE.py datasets/shapenet10_train.tar Generative/shapenet10_test.tar
+```
+By default, this code will save (and overwrite!) the weights to a .npz file with the same name as the config.py file (i.e. "VAE.py -> VAE.npz"), and will output a jsonl log of the training with metrics recorded after every chunk (a chunk being a set of minibatches loaded into shared memory). The binary reconstruction accuracy is evaluated on the test set after every N epochs (defined in the config file), and evaluates both false positives and false negatives.
+
+A good model will obtain a very low false negative rate, while most any model can get near-perfect false positives (and therefore very high overall reconstruction accuracy).
+
 ## Notes
 Discriminative models coming soon!
 
