@@ -1,7 +1,7 @@
 # Generative-and-Discriminative-Voxel-Modeling
 Voxel-Based Variational Autoencoders, VAE GUI, and Convnets for Classification
 
-![GUI](https://github.com/ajbrock/blob/master/doc/GUI3.png)
+![GUI](https://github.com/ajbrock/Generative-and-Discriminative-Voxel-Modelling/blob/master/doc/GUI3.png)
 
 This repository contains code from the forthcoming paper, "Generative and Discriminative Voxel Modeling with Convolutional Neural Networks," and the [Voxel-Based Variational Autoencoders](https://www.youtube.com/watch?v=LtpU1yBStlU) and Voxel-Based Deep Networks for Classification videos.
 
