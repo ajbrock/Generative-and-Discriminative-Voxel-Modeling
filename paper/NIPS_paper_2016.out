@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Voxel-Based Variational Autoencoders}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Model Architecture}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Loss Function}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Training}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{User Interface}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Voxel-Based Convnets for Classification}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Architecture}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Voxception}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Voxception-ResNet}{subsection.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Data Augmentation and Training}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Results}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Voxel-based VAE}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Object Classification}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Discussion}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Voxel-Based VAE}{section.5}% 16
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Interpolation}{subsection.5.1}% 17
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Sampling}{subsection.5.1}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Object Classification}{section.5}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Suggestions for Future Work}{subsection.5.2}% 20
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 21

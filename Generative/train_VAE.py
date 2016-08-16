@@ -7,14 +7,15 @@ import argparse
 import imp
 import time
 import logging
+# import sys
+# sys.path.insert(0, 'C:\Users\Andy\Generative-and-Discriminative-Voxel-Modeling')
 
 import numpy as np
 from path import Path
 import theano
 import theano.tensor as T
 import lasagne
-# import sys
-# sys.path.insert(0, 'C:\Users\Andy\Generative-and-Discriminative-Voxel-Modeling')
+
 from utils import checkpoints, npytar, metrics_logging
 
 from collections import OrderedDict
@@ -247,7 +248,7 @@ def make_training_functions(cfg,model):
     return tfuncs, tvars
 
 ## Data augmentation function from Voxnet, which randomly translates
-## and/or horizontally flips a chunk of data. Note that
+## and/or horizontally flips a chunk of data.
 def jitter_chunk(src, cfg):
     dst = src.copy()
     if np.random.binomial(1, .2):

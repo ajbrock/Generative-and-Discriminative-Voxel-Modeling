@@ -1,0 +1,123 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Wu et~al.()Wu, Khosla, Yu, Zhang, Tang, and Xiao]{3DShapeNets}
+Z.~Wu, A.~Khosla, F.~Yu, L.~Zhang, X.~Tang, and J.~Xiao.
+\newblock 3d shapenets: A deep representation for volumetric shape modeling.
+\newblock In \emph{CVPR 2015}.
+
+\bibitem[Su et~al.()Su, Maji, Kalogerakis, and E.Learned-Miller]{MVCNN}
+H.~Su, S.~Maji, E.~Kalogerakis, and E.Learned-Miller.
+\newblock Multi-view convolutional neural networks for 3d shape recognition.
+\newblock In \emph{ICCV 2015}.
+
+\bibitem[Johns et~al.()Johns, Leutenegger, and Davison]{Pairwise}
+E.~Johns, S.~Leutenegger, and A.~J. Davison.
+\newblock Pairwise decomposition of image sequences for active multi-view
+  recognition.
+\newblock In \emph{CVPR 2016}.
+
+\bibitem[Hegde and Zadeh(2016)]{FusionNets}
+V.~Hegde and R.~Zadeh.
+\newblock Fusionnet: 3d object classification using multiple data
+  representations.
+\newblock arXiv Preprint arXiv: 1607.05695, 2016.
+
+\bibitem[Maturana and Scherer()]{VoxNet}
+D.~Maturana and S.~Scherer.
+\newblock Voxnet: A 3d convolutional neural network for real-time object
+  recognition.
+\newblock In \emph{IROS 2015}.
+
+\bibitem[Sedaghat et~al.(2016)Sedaghat, Zolfaghari, and Brox]{ORION}
+N.~Sedaghat, M.~Zolfaghari, and T.~Brox.
+\newblock Orientation-boosted voxel nets for 3d object recognition.
+\newblock arXiv Preprint arXiv: 1604.03351, 2016.
+
+\bibitem[Kingma and Welling()]{VAE}
+D.P. Kingma and M.~Welling.
+\newblock Auto-encoding variational bayes.
+\newblock In \emph{ICLR 2014}.
+
+\bibitem[Team(2016)]{Theano}
+The Theano~Development Team.
+\newblock Theano: A python framework for fast computation of mathematical
+  expressions.
+\newblock arXiv Preprint arXiv: 1605.02688, 2016.
+
+\bibitem[Clevert et~al.()Clevert, Unterthiner, and Hochreiter]{ELU}
+D-A. Clevert, T.~Unterthiner, and S.~Hochreiter.
+\newblock Fast and accurate deep network learning by exponential linear units
+  (elus).
+\newblock In \emph{ICLR 2016}.
+
+\bibitem[Dumoulin and Visin(2016)]{arithmetic}
+V.~Dumoulin and F.~Visin.
+\newblock A guide to convolution arithmetic for deep learning.
+\newblock arXiv Preprint arXiv: 1603.07285, 2016.
+
+\bibitem[Glorot and Bengio()]{Glorot}
+X.~Glorot and Y.~Bengio.
+\newblock Understanding the difficulty of training deep feedforward neural
+  networks.
+\newblock In \emph{AISTATS 2010}.
+
+\bibitem[Ioffe and Szegedy()]{Bnorm}
+S.~Ioffe and C.~Szegedy.
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock In \emph{ICML 2015}.
+
+\bibitem[Sutskever et~al.()Sutskever, Martens, Dahl, and Hinton]{Nesterov}
+I.~Sutskever, J.~Martens, G.~Dahl, and G.~Hinton.
+\newblock On the importance of initialization and momentum in deep learning.
+\newblock In \emph{ICML 2013}.
+
+\bibitem[Yumer et~al.()Yumer, Asente, Mech, and Kara]{GUI_REF}
+M.~Yumer, P.~Asente, R.~Mech, and L.~Kara.
+\newblock Procedural modeling using autoencoder networks.
+\newblock In \emph{UIST 2015}.
+
+\bibitem[Schroeder et~al.(2006)Schroeder, Martin, and Lorenson.]{VTK}
+W.~Schroeder, K.~Martin, and B.~Lorenson.
+\newblock \emph{The Visualization Toolkit,}.
+\newblock Kitware, 4 edition, 2006.
+
+\bibitem[Szegedy et~al.(2016)Szegedy, Ioffe, and Vanhoucke]{Inception}
+C.~Szegedy, S.~Ioffe, and V.~Vanhoucke.
+\newblock Inception-v4, inception-resnet and the impact of residual connections
+  on learning.
+\newblock arXiv Preprint arXiv: 1602.07261, 2016.
+
+\bibitem[He et~al.()He, Zhang, Ren, and Sun]{ResNet}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In \emph{CVPR 2016}.
+
+\bibitem[He et~al.(2016)He, Zhang, Ren, and Sun]{PreActivation}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun.
+\newblock Identity mappings in deep residual networks.
+\newblock arXiv Preprint arXiv: 1603.05027, 2016.
+
+\bibitem[Huang et~al.(2016)Huang, Sun, Liu, Sedra, and
+  Weinberger]{StochasticDepth}
+G.~Huang, Y.~Sun, Z.~Liu, D.~Sedra, and K.~Q. Weinberger.
+\newblock Deep networks with stochastic depth.
+\newblock arXiv Preprint arXiv: 1603.09382, 2016.
+
+\bibitem[Saxe et~al.()Saxe, McClelland, and Ganguli]{orthog}
+A.M. Saxe, J.~L. McClelland, and S.~Ganguli.
+\newblock Exact solutions to the nonlinear dynamics of learning in deep linear
+  neural networks.
+\newblock In \emph{ICLR 2014}.
+
+\bibitem[Kingma and Ba(2014)]{Adam}
+D.P. Kingma and J.~Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock arXiv Preprint arXiv: 1412.6980, 2014.
+
+\end{thebibliography}
