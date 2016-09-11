@@ -7,7 +7,7 @@
 
 \bibitem[Wu et~al.()Wu, Khosla, Yu, Zhang, Tang, and Xiao]{3DShapeNets}
 Z.~Wu, A.~Khosla, F.~Yu, L.~Zhang, X.~Tang, and J.~Xiao.
-\newblock 3d shapenets: A deep representation for volumetric shape modeling.
+\newblock 3d shapenets: A deep representation for volumetric shapes.
 \newblock In \emph{CVPR 2015}.
 
 \bibitem[Su et~al.()Su, Maji, Kalogerakis, and E.Learned-Miller]{MVCNN}

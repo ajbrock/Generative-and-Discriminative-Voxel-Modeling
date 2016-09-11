@@ -48,7 +48,7 @@ By default, this code will save (and overwrite!) the weights to a .npz file with
 
 A good model will obtain a very low false negative rate, while most any model can get near-perfect false positives (and therefore very high overall reconstruction accuracy).
 
-## Training a classifier.
+## Training a Classifier
 The VRN.py file contains the model configuration and definitions for any custom layer types. The model can be trained with:
 
 ```sh
@@ -58,7 +58,7 @@ Note that running the train function will start from scratch and overwrite any p
 
 The first time you compile these functions may take a very long time, and may exceed the maximum recursion depth allowed by python.
 
-## Testing a classifier
+## Testing a Classifier
 #
 You can evaluate a classifier's performance on the ModelNet40 dataset, averaging predictions over 12 rotations, with:
 
@@ -66,8 +66,10 @@ You can evaluate a classifier's performance on the ModelNet40 dataset, averaging
 python Discriminative/test.py Discriminative/VRN.py datasets/modelnet40_rot_test.npz
 ```
 
-## Notes
-More pre-trained models and code for ensembling coming at the end of next week!
+## Evaluating an Ensemble
+#
+You can produce a simple ensemble by averaging multiple models' predictions on the test sets. I provide six pre-trained models for this purpose, along with .csv files containing their outputs on ModelNet40.
+Use the test_ensemble.py script to produce a .csv file with the model's predictions, and use the ensemble.m MATLAB script to combine and evaluate all the results.
 
 ## Acknowledgments
 This code was originally based on [voxnet](https://github.com/dimatura/voxnet) by D. Maturana.
